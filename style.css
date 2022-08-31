@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Consolas;	
+}
+
+h2 {
+	padding: 20px 20px;
+}
+
+.container {
+	display: flex;
+}
+
+img {
+	padding: 25px 25px;
+	margin: 25px 25px;
+	height: 430px;
+}
+
+p {	
+	font-size: 26px;
+	margin: 20px 20px;
+
+}
+
+.textoTitulo {
+	font-size: 65px;
+	margin: 40px 20px;
+}
+
+.boton {
+	height: 60px;
+	padding: 9px 9px;
+	margin: 20px 20px;
+	background-color: #333333;
+	border: none;
+	transition: bottom 1s;
+}
+
+.linkB {
+	text-decoration: none;
+}
+
+.back {
+	color: rgb(255, 255, 255);
+	font-size: 19.5px
+}
+
+.boton:hover {
+	position: relative;
+	bottom: 3px
+}
+
+footer {	
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	color: #bbb;
+}
+
+#bold {
+	color: #757575;
+}
